@@ -32,7 +32,7 @@ ___
 
 #### Hardware configuration:
 <p>
-Need to Install ultrasonic sensors in each trash can to measure the amount of garbage. I went thro and found HC-SR04 to be the best if anyone has any better alternatives do suggest.
+Need to Install ultrasonic sensors in each trash can to measure the amount of garbage. I went through and found HC-SR04 to be the best if anyone has any better alternatives do suggest.
         
         
 - Connect the sensors to a microcontroller, such as an Arduino or Raspberry Pi, that communicates with the cloud server. 
@@ -50,6 +50,30 @@ Need to Install ultrasonic sensors in each trash can to measure the amount of ga
     * Create a dashboard that displays historical data for each trash can, including the refuse level over time and the frequency of trash collection.
     * Implement user authentication to limit interface access to only authorised users.
 
+</p>
+<p>
+    IoT part:
+    Components needed:
+
+    Arduino Uno
+    HC-SR04 Ultrasonic Sensor
+    Servo motor (e.g., SG90)
+    Breadboard
+    Jumper wires
+    Dustbin with a hinged lid
+    Circuit connections:
+
+    Connect the HC-SR04 ultrasonic sensor to the Arduino Uno:
+
+    VCC pin to 5V
+    GND pin to GND
+    Echo pin to Arduino digital pin 2
+    Trigger pin to Arduino digital pin 3
+    Connect the servo motor to the Arduino Uno:
+
+    VCC (red) wire to 5V
+    GND (black/brown) wire to GND
+    Signal (orange/yellow) wire to Arduino digital pin 9
 </p>
 
 <p> 
@@ -84,7 +108,10 @@ For smart garbage management, Garbage Guardian uses the IoT, Google Cloud, and A
 ___
 
 ### Results: 
-
+Iot Simulation:
+<p align="center">
+    <img width="1000" src="https://github.com/Vice777/SBE-GFG/blob/main/Assets/IoT Connection.jpeg"    
+</p>
 ___
 
 ###  Contributors

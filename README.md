@@ -1,4 +1,4 @@
-# Smart Bin Ecosystem -  Guardian Bin
+# Smart Bin Ecosystem -  Guardian Gaurdian
 
 ___
 

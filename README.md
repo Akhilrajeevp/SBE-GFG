@@ -1,1 +1,2 @@
-## Smart Bin Ecosystem
+## Garbage Gaurdian
+
